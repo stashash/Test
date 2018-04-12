@@ -1,21 +1,25 @@
 package ru.sbt.test.refactoring.example;
 
+import ru.sbt.test.refactoring.example.Command.*;
+import ru.sbt.test.refactoring.example.figure.Figure;
+import ru.sbt.test.refactoring.example.figure.Tank;
+import ru.sbt.test.refactoring.example.figure.Tractor;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Figure tractor = new Tractor();
+		Figure tractor = new Tractor(new Point(0,0),new Field(5,5), Orientation.NORTH);
 		Command forward = new Forward(tractor);
 		Command turn = new Turn(tractor);
+		Command shot = new Shot(tractor);
 		ManagerCommand manager = new ManagerCommand();
 		manager.addCommand(forward);
 		manager.addCommand(turn);
-		
+		manager.addCommand(shot);
 		tractor.setManager(manager);
 		tractor.move();
-		
-		// TODO Auto-generated method stub
-		
+
 		System.out.println("Hello");	
 
 	}

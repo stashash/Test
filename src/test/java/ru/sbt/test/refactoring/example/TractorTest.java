@@ -1,4 +1,4 @@
-package ru.sbt.test.refactoring;
+package ru.sbt.test.refactoring.example;
 
 import junit.framework.TestCase;
 
@@ -8,7 +8,7 @@ import junit.framework.TestCase;
  */
 public class TractorTest extends TestCase {
 
-	public void testShouldMoveForward(){
+	/*public void testShouldMoveForward(){
 		Tractor tractor = new Tractor();
 		tractor.move("F");
 		assertEquals(0, tractor.getPositionX());
@@ -59,5 +59,5 @@ public class TractorTest extends TestCase {
 			fail("Tractor was expected to fall off the plateau");
 		}catch(TractorInDitchException expected){
 		}
-	}
+	}*/
 }

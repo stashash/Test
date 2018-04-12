@@ -1,4 +1,4 @@
-package ru.sbt.test.refactoring.example;
+package ru.sbt.test.refactoring.example.Command;
 
 public interface Command {
 	public void execute();

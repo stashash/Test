@@ -1,4 +1,6 @@
-package ru.sbt.test.refactoring.example;
+package ru.sbt.test.refactoring.example.Command;
+
+import ru.sbt.test.refactoring.example.Command.Command;
 
 import java.util.ArrayList;
 
@@ -12,6 +14,11 @@ public class ManagerCommand {
 		for(Command command:listCommands) {
 			command.execute();
 		}
+		/*
+		* Можем управлять командами как пожелаем,
+		* при желании изменяя Менеджер команд
+		*
+		* */
 	}	
 
 }
