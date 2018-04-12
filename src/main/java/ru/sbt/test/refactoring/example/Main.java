@@ -1,8 +1,7 @@
 package ru.sbt.test.refactoring.example;
 
-import ru.sbt.test.refactoring.example.Command.*;
+import ru.sbt.test.refactoring.example.command.*;
 import ru.sbt.test.refactoring.example.figure.Figure;
-import ru.sbt.test.refactoring.example.figure.Tank;
 import ru.sbt.test.refactoring.example.figure.Tractor;
 
 public class Main {

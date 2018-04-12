@@ -1,6 +1,5 @@
-package ru.sbt.test.refactoring.example.Command;
+package ru.sbt.test.refactoring.example.command;
 
-import ru.sbt.test.refactoring.example.Command.Command;
 import ru.sbt.test.refactoring.example.figure.Figure;
 
 public class Shot implements Command {

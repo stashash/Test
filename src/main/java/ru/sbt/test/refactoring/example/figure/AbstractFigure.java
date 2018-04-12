@@ -1,7 +1,7 @@
 package ru.sbt.test.refactoring.example.figure;
 
 import ru.sbt.test.refactoring.example.*;
-import ru.sbt.test.refactoring.example.Command.ManagerCommand;
+import ru.sbt.test.refactoring.example.command.ManagerCommand;
 
 abstract class AbstractFigure implements Figure {
 

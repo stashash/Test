@@ -1,6 +1,4 @@
-package ru.sbt.test.refactoring.example.Command;
-
-import ru.sbt.test.refactoring.example.Command.Command;
+package ru.sbt.test.refactoring.example.command;
 
 import java.util.ArrayList;
 

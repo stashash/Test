@@ -2,7 +2,7 @@ package ru.sbt.test.refactoring.example.figure;
 
 
 import ru.sbt.test.refactoring.example.Field;
-import ru.sbt.test.refactoring.example.Command.ManagerCommand;
+import ru.sbt.test.refactoring.example.command.ManagerCommand;
 import ru.sbt.test.refactoring.example.Orientation;
 import ru.sbt.test.refactoring.example.Point;
 

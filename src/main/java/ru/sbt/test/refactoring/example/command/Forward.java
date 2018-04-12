@@ -1,4 +1,4 @@
-package ru.sbt.test.refactoring.example.Command;
+package ru.sbt.test.refactoring.example.command;
 
 
 import ru.sbt.test.refactoring.example.figure.Figure;
